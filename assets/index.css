@@ -30,8 +30,8 @@ header h1 {
 }
 
 header nav ul li {
-    font-size: 36px;
     display: inline;
+    font-size: 36px;
     margin: 0px 50px;
 }
 
