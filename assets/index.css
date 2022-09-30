@@ -1,0 +1,42 @@
+@import url('http://fonts.cdnfonts.com/css/fortyseven-micro-nbp');
+
+:root {
+    --main-font-color: #6D4211;
+    --main-background-color: #D4B97C;
+}
+* {
+    font-family: 'FortySeven Micro NBP', sans-serif;
+    font-family: 'FortySeven NBP', sans-serif;
+}
+
+a, li {
+    text-decoration: none !important;
+    color: var(--main-font-color);
+    list-style: none;
+}
+
+body {
+    background-color: var(--main-background-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 56px;
+    margin: 0px 0px 30px 30px;
+}
+
+header nav ul li {
+    font-size: 36px;
+    display: inline;
+    margin: 0px 50px;
+}
+
+
+
+
+
+
