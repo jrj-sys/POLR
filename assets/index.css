@@ -1,42 +1,55 @@
-@import url('http://fonts.cdnfonts.com/css/fortyseven-micro-nbp');
+@import url("http://fonts.cdnfonts.com/css/fortyseven-micro-nbp");
 
 :root {
-    --main-font-color: #6D4211;
-    --main-background-color: #D4B97C;
+  --main-font-color: #6d4211;
+  --main-background-color: #d4b97c;
 }
 * {
-    font-family: 'FortySeven Micro NBP', sans-serif;
-    font-family: 'FortySeven NBP', sans-serif;
+  font-family: "FortySeven Micro NBP", sans-serif;
+  font-family: "FortySeven NBP", sans-serif;
 }
 
-a, li {
-    text-decoration: none !important;
-    color: var(--main-font-color);
-    list-style: none;
+a,
+li {
+  text-decoration: none !important;
+  color: var(--main-font-color);
+  list-style: none;
 }
 
 body {
-    background-color: var(--main-background-color);
+  background-color: var(--main-background-color);
+}
+
+body #start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 75vh;
+    border-radius: 25px;
+    background: var(--main-font-color);
+
+}
+
+body #start button {
+    background: var(--main-background-color);
+    font-size: 56px;
+    border-radius:15px;
+    padding: 10px;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
-    font-size: 56px;
-    margin: 0px 0px 30px 30px;
+  font-size: 56px;
+  margin: 0px 0px 30px 30px;
 }
 
 header nav ul li {
-    display: inline;
-    font-size: 36px;
-    margin: 0px 50px;
+  display: inline;
+  font-size: 36px;
+  margin: 0px 50px;
 }
-
-
-
-
-
-
